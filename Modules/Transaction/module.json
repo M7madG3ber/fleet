@@ -1,0 +1,10 @@
+{
+    "name": "Transaction",
+    "alias": "transaction",
+    "description": "The FleetCart Transaction Module.",
+    "order": 100,
+    "providers": [
+        "Modules\\Transaction\\Providers\\TransactionServiceProvider",
+        "Modules\\Transaction\\Providers\\RouteServiceProvider"
+    ]
+}

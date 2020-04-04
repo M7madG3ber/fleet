@@ -1,0 +1,10 @@
+{
+    "name": "Page",
+    "alias": "page",
+    "description": "Managing pages.",
+    "order": 9999,
+    "providers": [
+        "Modules\\Page\\Providers\\PageServiceProvider",
+        "Modules\\Page\\Providers\\RouteServiceProvider"
+    ]
+}

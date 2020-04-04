@@ -1,0 +1,30 @@
+{
+    "name": "fleetcart/currency",
+    "description": "The FleetCart Currency Module.",
+    "authors": [
+        {
+            "name": "Mehedi Hassan",
+            "email": "MehediDracula@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "florianv/swap": "^4.0",
+        "php-http/guzzle6-adapter": "^2.0",
+        "php-http/message": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Currency\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

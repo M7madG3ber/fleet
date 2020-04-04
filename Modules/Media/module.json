@@ -1,0 +1,10 @@
+{
+    "name": "Media",
+    "alias": "media",
+    "description": "The FleetCart Media Module.",
+    "order": 80,
+    "providers": [
+        "Modules\\Media\\Providers\\MediaServiceProvider",
+        "Modules\\Media\\Providers\\RouteServiceProvider"
+    ]
+}

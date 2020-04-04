@@ -1,0 +1,10 @@
+{
+    "name": "Report",
+    "alias": "report",
+    "description": "The FleetCart Report Module.",
+    "order": 100,
+    "providers": [
+        "Modules\\Report\\Providers\\ReportServiceProvider",
+        "Modules\\Report\\Providers\\RouteServiceProvider"
+    ]
+}
